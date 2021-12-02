@@ -1,0 +1,43 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+00C     @SCRATCH
+00D     @SCRATCH
+00D     _RETURN_
+00E     @SCRATCH
+00F     @SCRATCH
+010     @SCRATCH
+012     main.@SCRATCH1
+013     @delay_ms1.P1
+10D-10E @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+0004  @delay_ms1
+0017  main
+0017  @cinit
+
+Project Directory:
+    C:\Users\ArifulIslam\Desktop\PIC Prog\Output AC load control\
+
+Project Files:
+    main.c
+    ..\..\..\..\..\Program Files (x86)\PICC\devices\16f84a.h
+
+Units:
+    main.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F84A
+    Pointer Size:   8
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.sta
